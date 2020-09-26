@@ -1,0 +1,11 @@
+{
+  "name": "leighzeruraniumlogistics",
+  "version": "0.1.0",
+  "title": "Leighzer's Uranium Logistics",
+  "author": "Leighzer",
+  "contact": "Please message me on the factorio forums my username is leighzer.",
+  "homepage": "",
+  "factorio_version": "1.0",
+  "dependencies": [ "base >= 1.0.0", "? leighzernuclearsciencepack >= 0.1.1"],
+  "description": "Adds a new tier of uranium infused transport belts."
+}
