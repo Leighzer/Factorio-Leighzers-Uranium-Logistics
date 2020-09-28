@@ -78,8 +78,7 @@ data:extend({
       damaged_trigger_effect = hit_effects.entity(),
       animation_speed_coefficient = 32,
       belt_animation_set = uranium_basic_belt_animation_set,
-      fast_replaceable_group = "transport-belt",
-      next_upgrade = "underground-belt",
+      fast_replaceable_group = "transport-belt",      
       speed = leighzermods.leighzeruraniumlogistics.beltSpeed,
       structure =
       {
