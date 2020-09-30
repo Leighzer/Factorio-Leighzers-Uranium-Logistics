@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Fixed misspelled file name for normal res uranium-underground-belt remnant graphic.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
   Bugfixes:
     - Removed accidental next_upgrade for uranium-underground-belt.
