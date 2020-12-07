@@ -1,4 +1,5 @@
-local uraniumLogisticsTech = {
+local uraniumLogisticsTech = 
+  {
     type = "technology",
     name = "uranium-logistics",
     icon_size = 128,
@@ -34,13 +35,12 @@ local uraniumLogisticsTech = {
     order = "e-p-b-d"
   }
 
-if mods["leighzernuclearsciencepack"] then
-    uraniumLogisticsTech.prerequisites = {"nuclear-science-pack"}
-    table.insert(uraniumLogisticsTech.unit.ingredients, {"nuclear-science-pack",1})
-end
-
 if data.raw.technology["logistics-3"] then
   table.insert(uraniumLogisticsTech.prerequisites, "logistics-3")
+end
+
+if data.raw.technology["advanced-electronics-2"] then
+  table.insert(uraniumLogisticsTech.prerequisites, "advanced-electronics-2")
 end
 
 data:extend({

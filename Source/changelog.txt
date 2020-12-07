@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Changes:
+    - Add advanced-electronics-2 as prereq to uranium-logistics.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
   Bugfixes:
     - Fixed misspelled file name for normal res uranium-underground-belt remnant graphic.
